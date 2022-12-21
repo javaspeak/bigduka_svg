@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="#y#" width="128px" height="70px">
+<g>
+    <!-- Pink rectangle: no positioning calculations necessary -->
+    <!--
+    <path d="M0,0 L128,0 L128,70 L0,70 Z" style="fill:#FBCEC5;stroke:red;stroke-width:1;" />
+    -->
+    <path d="M0,0 L128,0 L128,70 L0,70 Z" style="fill:#FBCEC5;" />
+
+    <!-- Section title: no positioning calculations necessary. Title needs to be inserted -->
+    <text x="64" y="20" fill="black" style="font-size:12px;font-family:Verdana" text-anchor="middle">#title_line_1#</text>
+    <text x="64" y="35" fill="black" style="font-size:12px;font-family:Verdana" text-anchor="middle">#title_line_2#</text>
+    <text x="64" y="50" fill="black" style="font-size:12px;font-family:Verdana" text-anchor="middle">#title_line_3#</text>
+
+    <!-- Red rectangle at bottom: no positioning calculations necessary -->
+    <rect x="0" y="60" width="128px" height="10px" style="fill:red" />
+</g>
+</svg>

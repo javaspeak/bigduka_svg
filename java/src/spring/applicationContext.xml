@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    ============================================================================
+    BigDuka is an e-commerce site targeted at small and medium shops who wish
+    to have a web presence. BigDuka is a design from JavaSpeak.
+
+    Copyright (C) 2010 javaspeak
+
+	JavaSpeak has a mission statement is to encourage the adoption of affordable
+    e-commerce in Kenya across all segments of society.
+
+	JavaSpeak and BigDuka are the "brain childs" of John Dickerson.
+
+	Isaac Khaguli and John Dickerson are the technical members of BigDuka
+
+	All code pertaining to the creation of BigDuka is the intellectual
+	property of Isaac Khaguli and John Dickerson.
+
+    www.javaspeak.com and www.bigduka.com are domain names owned by John
+    Dickerson.  www.bigduka.co.ke is a domain name owned by Isaac Khaguli.
+
+    ============================================================================
+    Author : John Dickerson
+    ============================================================================
+-->
+<!--
+    ============================================================================
+    Description:
+
+    ============================================================================
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+<!--
+================================================================================
+PropertyPlacehilderConfigurer Bean loads up properties used by other beans from
+property files.
+================================================================================
+-->
+    <context:component-scan base-package="com.javaspeak.bigduka.svg" />
+    <context:component-scan base-package="com.javaspeak.bigduka.web.delegate.file" />
+
+</beans>

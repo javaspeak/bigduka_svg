@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="#y#" width="128px" height="38px">
+<g>
+
+    <path d="M0,0 L128,0 L128,38 L0,38 Z" style="fill:white;stroke:black;stroke-width:1;" />
+
+
+    <!-- Text Advert title: No need to work out how many words per line and insert. No coordinates calculations -->
+    <text x="2" y="7" fill="black" style="font-size:8px;font-family:Arial;font-weight:bold;">#ProductName#</text>
+
+    <!-- Product Id: No coordinates calculations -->
+    <text x="2" y="14" fill="black" style="font-size:8px;font-family:Arial;">Product Ref: #ProductId#</text>
+
+    <!-- Text Advert text: No need to work out how many words per line and insert. No coordinates calculations -->
+    <text x="2" y="17" fill="black" style="font-size:8px;font-family:Arial">
+        <tspan x="2" dy="4">#Description_25_T_line_1#</tspan>
+    </text>
+
+    <!-- Price: No coordinates calculations -->
+    <text x="2" y="29" fill="red" style="font-size:8px;font-family:Arial;font-weight:bold">Ksh #Price#</text>
+
+    <!-- Telephone: No coordinates calculations -->
+    <text x="2" y="36" fill="black" style="font-size:8px;font-family:Arial;font-weight:bold">Call #Telephone#</text>
+</g>
+</svg>

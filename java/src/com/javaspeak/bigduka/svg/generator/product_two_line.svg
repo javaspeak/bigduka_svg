@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="#y#" width="128px" height="162px">
+<g>
+  <!-- Black rectangle going round advert: no positioning calculations necessary -->
+  <path d="M0,0 L128,0 L128,162 L0,162 Z" style="fill:white;stroke:black;stroke-width:1;fill-opacity:1;stroke-opacity:1" />
+
+  <!-- Image: need to programatically work out x and y -->
+  <image x="#ImageX#" y="#ImageY#" width="#ImageWidth#px" height="#ImageHeight#px" xlink:href="#ImagePath#" />
+
+  <!-- Image title: no positioning calculations necessary. Title needs to be inserted -->
+  <text x="64" y="102" fill="black" style="font-size:11px;font-family:Arial;font-weight:500"
+        text-anchor="middle">#ProductName#</text>
+
+  <!-- Advert text: need to work out how many words per line and insert. No coordinates calculations -->
+  <text x="0" y="108" fill="black" style="font-size:9px;font-family:Arial">
+     <tspan x="5" dy="6">#Description_21_T_line_1#</tspan>
+     <tspan x="5" dy="11">#Description_21_T_line_2#</tspan>
+  </text>
+
+  <!-- Currency: no positioning calculations necessary -->
+  <text x="39" y="141" fill="black" style="font-size:6px;font-family:Arial;font-weight:900">Ksh</text>
+
+  <!-- Price: no positioning calculations necessary. Price needs to be inserted -->
+  <text x="53" y="149" fill="red" style="font-size:17px;font-family:Arial;font-weight:500">#Price#</text>
+
+  <!-- Black rectangle which productId sits in: no positioning calculations necessary -->
+  <rect x="1" y="151" width="58px" height="10px" style="fill:black" />
+
+  <!-- White productId text. No positioning calculations. Insert productId -->
+  <text x="3" y="160" fill="white"
+        style="font-size:10px;font-weight:bold;font-family:Arial">#:#ProductId#</text>
+
+  <!-- Red rectangle which telephone number sits in: no positioning calculations necessary -->
+  <rect x="66" y="151" width="61px" height="10px" style="fill:red" />
+
+  <!-- White telephone text. No positioning calculations. Insert telephone -->
+  <text x="68" y="160" fill="white"
+        style="font-size:10px;font-weight:bold;font-family:Arial">#Telephone#</text>
+</g>
+</svg>

@@ -1,0 +1,78 @@
+/*
+    ============================================================================
+    BigDuka is an e-commerce site targeted at small and medium shops who wish
+    to have a web presence. BigDuka is a design from JavaSpeak.
+
+    Copyright (C) 2010 javaspeak
+
+	JavaSpeak's mission statement is to encourage the adoption of affordable 
+    e-commerce in Kenya across all segments of society.
+
+	JavaSpeak and BigDuka are the "brain childs" of John Dickerson.
+	
+	Isaac Khaguli and John Dickerson are the technical members of BigDuka 
+	
+	All code pertaining to the creation of BigDuka is the intellectual 
+	property of Isaac Khaguli and John Dickerson.
+    
+    www.javaspeak.com and www.bigduka.com are domain names owned by John 
+    Dickerson.  www.bigduka.co.ke is a domain name owned by Isaac Khaguli.
+    
+    ============================================================================
+    Author : John Dickerson
+    ============================================================================
+*/
+package com.javaspeak.bigduka.web.delegate.file;
+
+
+
+/**
+ * @author John Dickerson
+ */
+public class FileHelperException extends Exception {
+  
+	private static final long serialVersionUID = -375949276342314262L;
+
+
+	/**
+     * Constructor
+     */
+    public FileHelperException() {
+        
+        super();
+    }
+
+    
+    /**
+     * Constructor 
+     * @param message message to be thrown
+     */
+    public FileHelperException( String message ) {
+        
+        super(message);
+    }
+
+    
+    /**
+     * Constructor
+     * 
+     * @param cause cause to be thrown
+     */
+    public FileHelperException( Throwable cause ) {
+        
+        super( cause );
+    }
+
+    
+    /**
+     * File Helper Exception
+     * 
+     * @param message message to be thrown
+     * 
+     * @param cause cause to be thrown
+     */
+    public FileHelperException( String message, Throwable cause ) {
+        
+        super( message, cause );
+    }
+}
